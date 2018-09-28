@@ -11,7 +11,38 @@
 	</swiper>
 	<!-- 功能导航区 -->
 	<view class="btn-area">
-	  <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover" class=""></navigator>
+	  <navigator url="/pages/userConsole/userConsole">
+	  	<view>
+		  	<image class="nav-image" src="../../images/icons/icon_topnav_01.png"/>
+	  	</view>
+	  	<view>
+	  		<text>品牌故事</text>
+	  	</view>
+	  </navigator>
+	 <navigator url="/pages/userConsole/userConsole">
+	  	<view>
+		  	<image class="nav-image" src="../../images/icons/icon_topnav_02.png"/>
+	  	</view>
+	  	<view>
+	  		<text>产品介绍</text>
+	  	</view>
+	  </navigator>
+	  <navigator url="/pages/userConsole/userConsole">
+	  	<view>
+		  	<image class="nav-image" src="../../images/icons/icon_topnav_03.png"/>
+	  	</view>
+	  	<view>
+	  		<text>产品动态</text>
+	  	</view>
+	  </navigator>
+	  <navigator url="/pages/userConsole/userConsole">
+	  	<view>
+		  	<image class="nav-image" src="../../images/icons/icon_topnav_01.png"/>
+	  	</view>
+	  	<view>
+	  		<text>邀请有奖</text>
+	  	</view>
+	  </navigator>
 	</view>
-	
+	<!--  -->
 </view>
