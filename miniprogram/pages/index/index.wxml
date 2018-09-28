@@ -1,5 +1,6 @@
 <!--pages/index/index.wxml-->
 <view class="container">
+	<!-- 轮播图 -->
 	<swiper indicator-dots="{{indicatorDots}}"
 		  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
 		<block wx:for="{{imgUrls}}">
@@ -8,5 +9,9 @@
 		    </swiper-item>
 		</block>
 	</swiper>
+	<!-- 功能导航区 -->
+	<view class="btn-area">
+	  <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover" class=""></navigator>
+	</view>
 	
 </view>

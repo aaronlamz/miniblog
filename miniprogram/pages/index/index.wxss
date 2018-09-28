@@ -10,3 +10,11 @@ page {
 .slide-image {
   width: 100%;
 }
+
+.btn-area {
+  display: flex;  
+  flex-direction: column;
+}
+.btn-area navigator {
+  
+}
