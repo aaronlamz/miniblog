@@ -16,5 +16,22 @@ Page({
   },
 
   onLoad: function() {
+    // setTimeout(() => {
+    //   wx.hideLoading();
+    // }, 1000);
+  },
+  onPullDownRefresh: function() {
+    // wx.stopPullDownRefresh()
+    // wx.showToast({
+    //   title: 'ttest'
+    // })
+    // wx.showLoading();
+    wx.stopPullDownRefresh();
+  },
+  onReachBottom: function() {
+    wx.showLoading();
+    setTimeout(function() {
+      wx.hideLoading();
+    }, 300);
   }
 })

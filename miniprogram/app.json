@@ -5,11 +5,12 @@
     "pages/userConsole/userConsole"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#282923",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "前端部落格",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#a9b7b7",
@@ -20,7 +21,7 @@
       "iconPath": "images/icons/icon_topbar_01.png",
       "pagePath": "pages/index/index",
       "text": "首页"
-    },{
+    }, {
       "selectedIconPath": "images/icons/icon_topbar_03_selected.png",
       "iconPath": "images/icons/icon_topbar_03.png",
       "pagePath": "pages/index/index",
@@ -29,7 +30,7 @@
       "selectedIconPath": "images/icons/icon_topbar_02_selected.png",
       "iconPath": "images/icons/icon_topbar_02.png",
       "pagePath": "pages/index/index",
-      "text": "我的"
+      "text": "关于我"
     }]
   }
 }
