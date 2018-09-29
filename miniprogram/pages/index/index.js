@@ -16,17 +16,12 @@ Page({
   },
 
   onLoad: function() {
-    // setTimeout(() => {
-    //   wx.hideLoading();
-    // }, 1000);
+
   },
   onPullDownRefresh: function() {
-    // wx.stopPullDownRefresh()
-    // wx.showToast({
-    //   title: 'ttest'
-    // })
-    // wx.showLoading();
-    wx.stopPullDownRefresh();
+    setTimeout(function() {
+      wx.stopPullDownRefresh();
+    }, 300);
   },
   onReachBottom: function() {
     wx.showLoading();
