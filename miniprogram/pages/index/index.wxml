@@ -3,11 +3,11 @@
 <!-- 轮播图 -->
 <swiper indicator-dots="{{indicatorDots}}"
 autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
-<block wx:for="{{imgUrls}}">
-<swiper-item>
-<image src="{{item}}" class="slide-image"  height="150"/>
-</swiper-item>
-</block>
+	<block wx:for="{{imgUrls}}" wx:key="key">
+	<swiper-item>
+		<image src="{{item}}" class="slide-image"  height="150"/>
+	</swiper-item>
+	</block>
 </swiper>
 <!-- 功能导航区 -->
 <view class="btn-area">
@@ -35,14 +35,62 @@ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular
 	<text>产品动态</text>
 	</view>
 </navigator>
-<navigator url="/pages/userConsole/userConsole">
-	<view>
-	<image class="nav-image" src="../../images/icons/icon_topnav_01.png"/>
-	</view>
-	<view>
-	<text>邀请有奖</text>
-	</view>
-</navigator>
 </view>
-<!--  -->
+<!-- 文章列表区 -->
+<view class="article-list">
+	<view>
+		<view class="list-item">
+			<view class="item-left"><image class="list-item-image" src="../../images/list/list_02.png"/>
+			</view>
+			<view class="item-right">
+				<view class="title">Webpack揭秘——走向高阶前端的必经之路</view>	
+			</view>
+		</view>
+		<view class="list-item">
+			<view class="item-left"><image class="list-item-image" src="../../images/list/list_01.png"/></view>
+			<view class="item-right">
+				<view class="title">【开源公告】H5、小程序自动化测试框架FAutoTest正式开源</view>
+			</view>
+		</view>
+		<view class="list-item">
+			<view class="item-left"><image class="list-item-image" src="../../images/list/list_02.png"/>
+			</view>
+			<view class="item-right">
+				<view class="title">Webpack揭秘——走向高阶前端的必经之路</view>	
+			</view>
+		</view>
+		<view class="list-item">
+			<view class="item-left"><image class="list-item-image" src="../../images/list/list_01.png"/></view>
+			<view class="item-right">
+				<view class="title">【开源公告】H5、小程序自动化测试框架FAutoTest正式开源</view>
+			</view>
+		</view>
+		<view class="list-item">
+			<view class="item-left"><image class="list-item-image" src="../../images/list/list_02.png"/>
+			</view>
+			<view class="item-right">
+				<view class="title">Webpack揭秘——走向高阶前端的必经之路</view>	
+			</view>
+		</view>
+		<view class="list-item">
+			<view class="item-left"><image class="list-item-image" src="../../images/list/list_01.png"/></view>
+			<view class="item-right">
+				<view class="title">【开源公告】H5、小程序自动化测试框架FAutoTest正式开源</view>
+			</view>
+		</view>
+		<view class="list-item">
+			<view class="item-left"><image class="list-item-image" src="../../images/list/list_02.png"/>
+			</view>
+			<view class="item-right">
+				<view class="title">Webpack揭秘——走向高阶前端的必经之路</view>	
+			</view>
+		</view>
+		<view class="list-item">
+			<view class="item-left"><image class="list-item-image" src="../../images/list/list_01.png"/></view>
+			<view class="item-right">
+				<view class="title">【开源公告】H5、小程序自动化测试框架FAutoTest正式开源</view>
+			</view>
+		</view>
+	</view>
+</view>
 </view>
