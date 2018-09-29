@@ -39,14 +39,14 @@ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular
 <!-- 文章列表区 -->
 <view class="article-list">
 	<view>
-		<view class="list-item">
-			<view class="item-left"><image class="list-item-image" src="../../images/list/list_02.png"/>
+		<view class="list-item" wx:for="{{list}}" wx:key="key" bindtap="goDetail">
+			<view class="item-left"><image class="list-item-image" src="{{item.imgUrl}}"/>
 			</view>
 			<view class="item-right">
-				<view class="title">Webpack揭秘——走向高阶前端的必经之路</view>	
+				<view class="title">{{item.title}}</view>	
 			</view>
 		</view>
-		<view class="list-item">
+		<!-- <view class="list-item">
 			<view class="item-left"><image class="list-item-image" src="../../images/list/list_01.png"/></view>
 			<view class="item-right">
 				<view class="title">【开源公告】H5、小程序自动化测试框架FAutoTest正式开源</view>
@@ -90,7 +90,7 @@ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular
 			<view class="item-right">
 				<view class="title">【开源公告】H5、小程序自动化测试框架FAutoTest正式开源</view>
 			</view>
-		</view>
+		</view> -->
 	</view>
 </view>
 </view>
