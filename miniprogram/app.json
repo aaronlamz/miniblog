@@ -2,15 +2,15 @@
   "cloud": true,
   "pages": [
     "pages/index/index",
-    "pages/userConsole/userConsole"
+    "pages/userConsole/userConsole",
+    "pages/articleDetail/articleDetail"
   ],
   "window": {
     "backgroundColor": "#282923",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "前端部落格",
-    "navigationBarTextStyle": "black",
-    "enablePullDownRefresh": true
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#a9b7b7",

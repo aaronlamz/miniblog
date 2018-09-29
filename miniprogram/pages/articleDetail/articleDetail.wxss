@@ -1,0 +1,22 @@
+/**articleDetail.wxss**/
+.article-container {
+  padding: 20rpx 30rpx;
+  background: #fff;
+}
+
+.article-title {
+  font-size: 36rpx;
+}
+
+.article-info{
+  padding: 10rpx 0;
+}
+
+.article-content{
+  padding: 20rpx 0;
+}
+
+.article-text {
+  padding: 10rpx 0;
+  font-size: 32rpx;
+}

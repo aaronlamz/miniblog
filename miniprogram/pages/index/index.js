@@ -52,12 +52,7 @@ Page({
 
   onPullDownRefresh: function() {
     setTimeout(function() {
-      wx.showToast({
-        title: '没有更多数据',
-        success: function() {
-          wx.stopPullDownRefresh();
-        }
-      });
+      wx.stopPullDownRefresh();
     }, 500);
   },
 
@@ -91,7 +86,7 @@ Page({
 
   goDetail: function() {
     wx.navigateTo({
-      url: '../userConsole/userConsole'
+      url: '../articleDetail/articleDetail'
     });
   }
 })
