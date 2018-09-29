@@ -9,10 +9,5 @@ App({
             })
         }
         this.globalData = {}
-        // wx.startPullDownRefresh({
-        //     success: function() {
-        //         console.log(33333)
-        //     }
-        // });
     }
 })
