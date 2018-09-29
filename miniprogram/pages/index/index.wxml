@@ -1,48 +1,48 @@
 <!--pages/index/index.wxml-->
 <view class="container">
-	<!-- 轮播图 -->
-	<swiper indicator-dots="{{indicatorDots}}"
-		  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
-		<block wx:for="{{imgUrls}}">
-		    <swiper-item>
-		      <image src="{{item}}" class="slide-image"  height="150"/>
-		    </swiper-item>
-		</block>
-	</swiper>
-	<!-- 功能导航区 -->
-	<view class="btn-area">
-	  <navigator url="/pages/userConsole/userConsole">
-	  	<view>
-		  	<image class="nav-image" src="../../images/icons/icon_topnav_01.png"/>
-	  	</view>
-	  	<view>
-	  		<text>品牌故事</text>
-	  	</view>
-	  </navigator>
-	 <navigator url="/pages/userConsole/userConsole">
-	  	<view>
-		  	<image class="nav-image" src="../../images/icons/icon_topnav_02.png"/>
-	  	</view>
-	  	<view>
-	  		<text>产品介绍</text>
-	  	</view>
-	  </navigator>
-	  <navigator url="/pages/userConsole/userConsole">
-	  	<view>
-		  	<image class="nav-image" src="../../images/icons/icon_topnav_03.png"/>
-	  	</view>
-	  	<view>
-	  		<text>产品动态</text>
-	  	</view>
-	  </navigator>
-	  <navigator url="/pages/userConsole/userConsole">
-	  	<view>
-		  	<image class="nav-image" src="../../images/icons/icon_topnav_01.png"/>
-	  	</view>
-	  	<view>
-	  		<text>邀请有奖</text>
-	  	</view>
-	  </navigator>
+<!-- 轮播图 -->
+<swiper indicator-dots="{{indicatorDots}}"
+autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+<block wx:for="{{imgUrls}}">
+<swiper-item>
+<image src="{{item}}" class="slide-image"  height="150"/>
+</swiper-item>
+</block>
+</swiper>
+<!-- 功能导航区 -->
+<view class="btn-area">
+<navigator url="/pages/userConsole/userConsole">
+	<view>
+	<image class="nav-image" src="../../images/icons/icon_topnav_01.png"/>
 	</view>
-	<!--  -->
+	<view>
+	<text>品牌故事</text>
+	</view>
+</navigator>
+<navigator url="/pages/userConsole/userConsole">
+	<view>
+	<image class="nav-image" src="../../images/icons/icon_topnav_02.png"/>
+	</view>
+	<view>
+	<text>产品介绍</text>
+	</view>
+</navigator>
+<navigator url="/pages/userConsole/userConsole">
+	<view>
+	<image class="nav-image" src="../../images/icons/icon_topnav_03.png"/>
+	</view>
+	<view>
+	<text>产品动态</text>
+	</view>
+</navigator>
+<navigator url="/pages/userConsole/userConsole">
+	<view>
+	<image class="nav-image" src="../../images/icons/icon_topnav_01.png"/>
+	</view>
+	<view>
+	<text>邀请有奖</text>
+	</view>
+</navigator>
+</view>
+<!--  -->
 </view>

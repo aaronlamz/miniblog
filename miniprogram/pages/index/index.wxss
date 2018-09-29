@@ -1,25 +1,32 @@
 /**index.wxss**/
-
 page {
   background: #f6f6f6;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .slide-image {
   width: 100%;
 }
+
 .btn-area {
-  display: flex;  
+  display: flex;
   margin-top: 20rpx;
   padding: 10rpx 0 10rpx;
   background: #fff;
 }
+
 .btn-area navigator {
-  flex-grow:1;
+  flex-grow: 1;
   text-align: center;
 }
-.btn-area text{
+
+.btn-area text {
   font-size: 24rpx;
 }
-.nav-image {width: 100rpx;height: 100rpx;}
+
+.nav-image {
+  width: 100rpx;
+  height: 100rpx;
+}
