@@ -16,6 +16,7 @@ page {
   margin-top: 20rpx;
   padding: 10rpx 0 10rpx;
   background: #fff;
+  border-top: 2rpx solid #eee;
 }
 
 .btn-area navigator {
