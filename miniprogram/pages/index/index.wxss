@@ -52,11 +52,15 @@ page {
   padding-left: 20rpx;
 }
 
+.article-list .item-left {
+  border: 2rpx solid #ccc;
+}
+
 .article-list .title {
   width: 490rpx;
   display: -webkit-box;
   padding-top: 10rpx;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp:2;
+  -webkit-line-clamp: 2;
 }
