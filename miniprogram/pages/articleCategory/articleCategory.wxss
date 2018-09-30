@@ -1,8 +1,25 @@
 /* pages/articleCategory/articleCategory.wxss */
 .category-box {
-	padding: 20rpx;
-	display: flex;
+	width: 100%;
 }
 
 .category-box .category-item {
+	width: 50%;
+	background: #eee;
+	float: left;
+}
+
+.category-box .category-item .inner {
+	padding: 10rpx;
+}
+
+.category-box .category-img {
+	display: block;
+	width: 100%;
+	height: 200rpx;
+}
+
+.category-box .category-info {
+	padding: 10rpx;
+	text-align: center;
 }
