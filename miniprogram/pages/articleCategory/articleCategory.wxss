@@ -1,2 +1,8 @@
 /* pages/articleCategory/articleCategory.wxss */
+.category-box {
+	padding: 20rpx;
+	display: flex;
+}
 
+.category-box .category-item {
+}

@@ -11,7 +11,7 @@ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular
 </swiper>
 <!-- 功能导航区 -->
 <view class="btn-area">
-<navigator url="/pages/articleCategory/articleCategory">
+<navigator url="/pages/articleCategory/articleCategory" open-type="switchTab">
 	<view>
 	<image class="nav-image" src="../../images/icons/icon_topnav_01.png"/>
 	</view>
@@ -28,6 +28,7 @@ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular
 	</view>
 </navigator>
 <navigator url="/pages/articleCategory/articleCategory">
+
 	<view>
 	<image class="nav-image" src="../../images/icons/icon_topnav_03.png"/>
 	</view>

@@ -24,7 +24,7 @@
     }, {
       "selectedIconPath": "images/icons/icon_topbar_03_selected.png",
       "iconPath": "images/icons/icon_topbar_03.png",
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/articleCategory/articleCategory",
       "text": "文章分类"
     }, {
       "selectedIconPath": "images/icons/icon_topbar_02_selected.png",
