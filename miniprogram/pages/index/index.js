@@ -62,7 +62,7 @@ Page({
     });
     setTimeout(() => {
       wx.hideLoading();
-      if (this.data.list.length > 10) {
+      if (this.data.list.length > 15) {
         wx.showToast({
           title: '没有更多数据'
         });
@@ -85,6 +85,9 @@ Page({
   },
 
   goDetail: function() {
+
+
+
     wx.navigateTo({
       url: '../articleDetail/articleDetail'
     });

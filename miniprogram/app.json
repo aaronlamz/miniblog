@@ -2,7 +2,7 @@
   "cloud": true,
   "pages": [
     "pages/index/index",
-    "pages/userConsole/userConsole",
+    "pages/articleCategory/articleCategory",
     "pages/articleDetail/articleDetail"
   ],
   "window": {
