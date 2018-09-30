@@ -39,6 +39,7 @@ page {
   display: flex;
   padding: 20rpx;
   border-top: 2rpx solid #eee;
+  background-color: #fff;
 }
 
 .article-list .list-item-image {

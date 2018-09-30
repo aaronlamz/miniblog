@@ -5,18 +5,20 @@
 
 .category-box .category-item {
 	width: 50%;
-	background: #eee;
+	background: #fff;
 	float: left;
 }
 
 .category-box .category-item .inner {
-	padding: 10rpx;
+	margin: 10rpx;
+	border:1px solid #eee;
 }
 
 .category-box .category-img {
 	display: block;
-	width: 100%;
+	width: 95%;
 	height: 200rpx;
+	margin: 10rpx auto 0;
 }
 
 .category-box .category-info {
