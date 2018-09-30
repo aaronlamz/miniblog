@@ -33,7 +33,7 @@ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular
 	<image class="nav-image" src="../../images/icons/icon_topnav_03.png"/>
 	</view>
 	<view>
-	<text>GitHub</text>
+	<text>资讯</text>
 	</view>
 </navigator>
 </view>
