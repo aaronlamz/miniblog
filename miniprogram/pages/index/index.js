@@ -47,7 +47,7 @@ Page({
   },
 
   onLoad: function() {
-
+    this.getArticleList();
   },
 
   onPullDownRefresh: function() {
@@ -84,10 +84,18 @@ Page({
     }, 300);
   },
 
+  getArticleList: function() {
+    const db = wx.cloud.database({
+      env: 'test-dd1ca2'
+    });
+    db.collection('article_conetnt').get().then(res => {
+      this.setData({
+        list: res.data
+      });
+    })
+  },
+
   goDetail: function() {
-
-
-
     wx.navigateTo({
       url: '../articleDetail/articleDetail'
     });
