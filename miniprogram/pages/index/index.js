@@ -48,7 +48,6 @@ Page({
   },
 
   onLoad: function() {
-    this.db = app.db;
     this.getArticleList();
   },
 
