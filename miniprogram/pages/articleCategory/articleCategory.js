@@ -1,12 +1,6 @@
 // pages/articleCategory/articleCategory.js
 Page({
-	data: {
-		openid: ''
-	},
+	data: {},
 
-	onLoad: function(options) {
-		this.setData({
-			openid: getApp().globalData.openid
-		})
-	}
+	onLoad: function(options) {}
 })

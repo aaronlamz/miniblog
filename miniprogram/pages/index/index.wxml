@@ -38,7 +38,7 @@ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular
 </view>
 <!-- 文章列表区 -->
 <view class="article-list">
-<view class="list-item" wx:for="{{list}}" wx:key="key" bindtap="goDetail">
+<view class="list-item" wx:for="{{list}}" wx:key="key" data-id="{{item._id}}" bindtap="goDetail">
 	<view class="item-left"><image class="list-item-image" src="{{item.imgUrl}}"/>
 	</view>
 	<view class="item-right">

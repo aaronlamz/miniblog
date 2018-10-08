@@ -1,5 +1,6 @@
 //index.js
 const app = getApp()
+const db = app.db
 
 Page({
   data: {
@@ -47,6 +48,7 @@ Page({
   },
 
   onLoad: function() {
+    this.db = app.db;
     this.getArticleList();
   },
 
@@ -85,19 +87,18 @@ Page({
   },
 
   getArticleList: function() {
-    const db = wx.cloud.database({
-      env: 'test-dd1ca2'
-    });
     db.collection('article_conetnt').get().then(res => {
+      console.log(res.data);
       this.setData({
         list: res.data
       });
     })
   },
 
-  goDetail: function() {
+  goDetail: function(event) {
+    let id = event.currentTarget.dataset.id;
     wx.navigateTo({
-      url: '../articleDetail/articleDetail'
+      url: '../articleDetail/articleDetail?id=' + id
     });
   }
 })

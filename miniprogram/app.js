@@ -10,5 +10,8 @@ App({
             })
         }
         this.globalData = {}
+        this.db = wx.cloud.database({
+            env: 'test-dd1ca2'
+        });
     }
 })

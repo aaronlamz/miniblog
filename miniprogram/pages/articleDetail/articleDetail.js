@@ -1,22 +1,24 @@
-//articleDetail.js
+// articleDetail.js
 const app = getApp()
+const db = app.db
 
 Page({
   data: {
-
+    content: ''
   },
-  onReady: function() {
-
-  },
-  onLoad: function() {
+  onLoad: function(options) {
+    console.log(options.id);
     wx.showLoading({
       title: '玩命加载中'
     });
-    setTimeout(() => {
+    db.collection('article_conetnt').doc(options.id).get().then(res => {
+      this.setData({
+        content: res.data.content
+      });
       wx.setNavigationBarTitle({
-        title: '文章详情页'
+        title: res.data.title
       });
       wx.hideLoading();
-    }, 500);
+    })
   }
 })
