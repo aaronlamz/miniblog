@@ -2,7 +2,7 @@
 <view class="container">
 <view class="article-container">
 	<view class="article-title">【开源公告】H5、小程序自动化测试框架FAutoTest正式开源</view>
-	<view class="article-info">2018-09-28 | 掘金</view>
+	<view class="article-info">2018-09-28 |{{createBy}}</view>
 	<view class="article-content">
 		<view class="article-text">{{content}}</view>
 	</view>

@@ -4,7 +4,8 @@ const db = app.db
 
 Page({
   data: {
-    content: ''
+    content: '',
+    createBy: ''
   },
   onLoad: function(options) {
     console.log(options.id);
@@ -13,7 +14,8 @@ Page({
     });
     db.collection('article_conetnt').doc(options.id).get().then(res => {
       this.setData({
-        content: res.data.content
+        content: res.data.content,
+        createBy: res.data.create_by
       });
       wx.setNavigationBarTitle({
         title: res.data.title
