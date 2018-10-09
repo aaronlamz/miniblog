@@ -11,20 +11,20 @@ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular
 </swiper>
 <!-- 功能导航区 -->
 <view class="btn-area">
+<navigator url="/pages/articleCategory/articleCategory">
+	<view>
+	<image class="nav-image" src="../../images/icons/icon_topnav_02.png"/>
+	</view>
+	<view>
+	<text>文章排行</text>
+	</view>
+</navigator>
 <navigator url="/pages/articleCategory/articleCategory" open-type="switchTab">
 	<view>
 	<image class="nav-image" src="../../images/icons/icon_topnav_01.png"/>
 	</view>
 	<view>
 	<text>文章分类</text>
-	</view>
-</navigator>
-<navigator url="/pages/articleCategory/articleCategory">
-	<view>
-	<image class="nav-image" src="../../images/icons/icon_topnav_02.png"/>
-	</view>
-	<view>
-	<text>前端实验室</text>
 	</view>
 </navigator>
 <navigator url="/pages/articleCategory/articleCategory">
