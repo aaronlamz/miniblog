@@ -22,9 +22,8 @@ Page({
   },
 
   onPullDownRefresh: function() {
-    setTimeout(function() {
-      wx.stopPullDownRefresh();
-    }, 500);
+    this.getArticleList();
+    wx.stopPullDownRefresh();
   },
 
   onReachBottom: function() {
@@ -55,7 +54,7 @@ Page({
     }, 300);
   },
 
-  getArticleList: function() {
+  getArticleList: function(cb) {
     wx.showLoading({
       title: '玩命加载中'
     });
@@ -65,6 +64,7 @@ Page({
         list: res.data
       });
       wx.hideLoading();
+      cb && cb();
     })
   },
 
