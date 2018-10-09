@@ -2,107 +2,11 @@
 <view class="container">
 <view class="category-list">
   <view class="category-box">
-    <view class="category-item">
+    <view class="category-item" wx:for="{{list}}" wx:key="key">
       <view class="inner">
       <image class="category-img" src="../../images/list/list_02.png"/>
       <view class="category-info">
-      <text>前端</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_01.png"/>
-      <view class="category-info">
-      <text>前端框架</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_03.png"/>
-      <view class="category-info">
-      <text>前端</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_04.png"/>
-      <view class="category-info">
-      <text>前端框架</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_01.png"/>
-      <view class="category-info">
-      <text>前端框架</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_02.png"/>
-      <view class="category-info">
-      <text>前端框架</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_03.png"/>
-      <view class="category-info">
-      <text>前端框架</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_04.png"/>
-      <view class="category-info">
-      <text>前端框架</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_04.png"/>
-      <view class="category-info">
-      <text>前端框架</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_01.png"/>
-      <view class="category-info">
-      <text>前端框架</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_02.png"/>
-      <view class="category-info">
-      <text>前端框架</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_03.png"/>
-      <view class="category-info">
-      <text>前端框架</text>
-      </view>
-      </view>
-    </view>
-    <view class="category-item">
-      <view class="inner">
-      <image class="category-img" src="../../images/list/list_04.png"/>
-      <view class="category-info">
-      <text>前端框架</text>
+      <text>{{item.name}}</text>
       </view>
       </view>
     </view>

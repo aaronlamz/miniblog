@@ -3,7 +3,8 @@
   "pages": [
     "pages/index/index",
     "pages/articleCategory/articleCategory",
-    "pages/articleDetail/articleDetail"
+    "pages/articleDetail/articleDetail",
+    "pages/my/my"
   ],
   "window": {
     "backgroundColor": "#282923",
@@ -29,7 +30,7 @@
     }, {
       "selectedIconPath": "images/icons/icon_topbar_02_selected.png",
       "iconPath": "images/icons/icon_topbar_02.png",
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/my/my",
       "text": "我的"
     }]
   }
