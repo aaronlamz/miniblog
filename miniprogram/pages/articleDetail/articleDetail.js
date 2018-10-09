@@ -4,6 +4,7 @@ const db = app.db
 
 Page({
   data: {
+    title: '',
     content: '',
     createBy: ''
   },
@@ -14,6 +15,7 @@ Page({
     });
     db.collection('article_conetnt').doc(options.id).get().then(res => {
       this.setData({
+        title: res.data.title,
         content: res.data.content,
         createBy: res.data.create_by
       });
