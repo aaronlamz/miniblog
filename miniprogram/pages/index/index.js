@@ -56,11 +56,15 @@ Page({
   },
 
   getArticleList: function() {
+    wx.showLoading({
+      title: '玩命加载中'
+    });
     db.collection('article_conetnt').get().then(res => {
       console.log(res.data);
       this.setData({
         list: res.data
       });
+      wx.hideLoading();
     })
   },
 
