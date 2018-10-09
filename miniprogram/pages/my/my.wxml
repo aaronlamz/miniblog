@@ -3,4 +3,9 @@
 	<view wx:if="{{!isAutority}}">
 		<button   open-type="getUserInfo">登陆</button>
 	</view>
+	<view class="userinfo">
+		<view class="avatar">
+			<image src="{{avatarUrl}}"/>
+		</view>
+	</view>
 </view>

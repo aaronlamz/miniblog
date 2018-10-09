@@ -6,7 +6,8 @@ Page({
   data: {
     isAutority: false,
     avatarUrl: '',
-    nickName: ''
+    nickName: '',
+    avatarUrl: ''
   },
 
   onLoad: function() {
@@ -19,8 +20,9 @@ Page({
             isAutority: true
           })
           wx.getUserInfo({
-            success: function(res) {
+            success: (res) => {
               console.log(res)
+              this.setUserInfo(res.userInfo)
             }
           })
         }
@@ -30,5 +32,11 @@ Page({
 
   bindGetUserInfo(e) {
     console.log(e.detail.userInfo)
+  },
+
+  setUserInfo: function(userInfo) {
+    this.setData({
+      avatarUrl: userInfo.avatarUrl
+    });
   }
 })
