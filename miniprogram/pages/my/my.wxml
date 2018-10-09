@@ -1,4 +1,6 @@
 <!--pages/my/my.wxml-->
 <view class="container">
-
+	<view wx:if="{{!isAutority}}">
+		<button   open-type="getUserInfo">登陆</button>
+	</view>
 </view>

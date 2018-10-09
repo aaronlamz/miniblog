@@ -6,4 +6,7 @@ page {
   justify-content: flex-start;
   font-size: 24rpx;
 }
+.container{
+  padding:20rpx;
+}
 
