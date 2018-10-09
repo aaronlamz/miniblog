@@ -43,6 +43,9 @@ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular
 	</view>
 	<view class="item-right">
 		<view class="title">{{item.title}}</view>
+		<view class="bottom">
+			<view class="date">{{item.create_date}}</view>
+		</view>
 	</view>
 </view>
 </view>

@@ -50,6 +50,7 @@ page {
 
 .article-list .item-right {
   padding-left: 20rpx;
+  position: relative;
 }
 
 .article-list .item-left {
@@ -64,3 +65,5 @@ page {
   text-overflow: ellipsis;
   -webkit-line-clamp: 2;
 }
+
+.article-list .bottom {position: absolute;bottom: 10rpx;}
