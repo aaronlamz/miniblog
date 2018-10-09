@@ -14,37 +14,7 @@ Page({
     circular: true,
     interval: 5000,
     duration: 1000,
-    list: [{
-      title: '【开源公告】H5、小程序自动化测试框架FAutoTest正式开源',
-      imgUrl: '../../images/list/list_01.png'
-    }, {
-      title: 'Webpack揭秘——走向高阶前端的必经之路',
-      imgUrl: '../../images/list/list_02.png'
-    }, {
-      title: '还在记git命令？快试试SourceTree',
-      imgUrl: '../../images/list/list_03.png'
-    }, {
-      title: 'Webpack揭秘——走向高阶前端的必经之路',
-      imgUrl: '../../images/list/list_02.png'
-    }, {
-      title: '【开源公告】H5、小程序自动化测试框架FAutoTest正式开源',
-      imgUrl: '../../images/list/list_01.png'
-    }, {
-      title: 'Webpack揭秘——走向高阶前端的必经之路',
-      imgUrl: '../../images/list/list_02.png'
-    }, {
-      title: '【开源公告】H5、小程序自动化测试框架FAutoTest正式开源',
-      imgUrl: '../../images/list/list_01.png'
-    }, {
-      title: 'Webpack揭秘——走向高阶前端的必经之路',
-      imgUrl: '../../images/list/list_02.png'
-    }, {
-      title: '【开源公告】H5、小程序自动化测试框架FAutoTest正式开源',
-      imgUrl: '../../images/list/list_01.png'
-    }, {
-      title: 'Webpack揭秘——走向高阶前端的必经之路',
-      imgUrl: '../../images/list/list_02.png'
-    }]
+    list: []
   },
 
   onLoad: function() {

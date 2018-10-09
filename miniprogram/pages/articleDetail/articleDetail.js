@@ -1,6 +1,7 @@
 // articleDetail.js
 const app = getApp()
 const db = app.db
+const WxParse = require('../../wxParse/wxParse.js')
 
 Page({
   data: {
@@ -19,6 +20,7 @@ Page({
         content: res.data.content,
         createBy: res.data.create_by
       });
+      WxParse.wxParse('article', 'html', res.data.content, this, 0);
       wx.setNavigationBarTitle({
         title: res.data.title
       });

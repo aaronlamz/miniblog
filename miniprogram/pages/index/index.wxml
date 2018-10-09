@@ -32,7 +32,7 @@ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular
 	<image class="nav-image" src="../../images/icons/icon_topnav_03.png"/>
 	</view>
 	<view>
-	<text>资讯</text>
+	<text>更多</text>
 	</view>
 </navigator>
 </view>

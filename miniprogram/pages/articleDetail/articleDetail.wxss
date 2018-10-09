@@ -21,3 +21,6 @@
   padding: 10rpx 0;
   font-size: 32rpx;
 }
+.wxParse-img{
+	width:100% !important;
+}
