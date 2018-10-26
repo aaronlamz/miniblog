@@ -5,5 +5,6 @@
 ![二维码](/miniprogram/images/ad/qrcode.png?raw=true)
 
 ### 参考文档
-> [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+- [小程序文档](https://developers.weixin.qq.com/miniprogram/dev/)
+- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
