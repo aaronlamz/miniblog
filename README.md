@@ -7,4 +7,5 @@
 ### 参考文档
 - [小程序文档](https://developers.weixin.qq.com/miniprogram/dev/)
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
-
+### License 
+[MIT](https://opensource.org/licenses/MIT)
