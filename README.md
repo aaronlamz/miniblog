@@ -1,5 +1,5 @@
 # miniblog
-> 前端部落格，前端博客小程序，记录个人文章及前端最新资讯
+> 前端部落格，前端博客小程序
 
 ### 体验版
 ![二维码](/miniprogram/images/ad/qrcode.png?raw=true)
